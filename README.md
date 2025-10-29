@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚗 Ride App
 
-## Getting Started
+An AI-driven ride booking and management platform built using **Next.js (frontend)** and **Django REST Framework (backend)**. The app allows users to **book rides**, **track drivers in real-time**, and **manage ride history**, while drivers can **accept, start, and complete rides** efficiently.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🚘 User Features
+- User registration & login with JWT authentication
+- Book a ride by entering pickup and destination
+- View available drivers nearby
+- Live ride status tracking
+- View ride history
+- Logout functionality
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🚖 Driver Features
+- Driver login & dashboard
+- View assigned rides
+- Accept and confirm rides
+- Mark rides as completed
+- View ride history
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ⚙️ Admin Features
+- Manage users and drivers
+- Monitor rides and statuses
+- Handle ride history and analytics (optional future feature)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧩 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | Next.js 16 (App Router), React, Tailwind CSS |
+| **Backend** | Django, Django REST Framework |
+| **Database** | PostgreSQL |
+| **Authentication** | JWT (JSON Web Tokens) |
+| **Maps & Location** | Google Maps API (for live map display & coordinates) |
+| **Real-time** | WebSockets (for live updates) |
+| **Deployment** | Docker (optional) |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🗂️ Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Frontend (`/RidingApp`)
