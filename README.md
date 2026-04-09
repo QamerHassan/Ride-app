@@ -1,7 +1,7 @@
 # <p align="center">🚗 Ride App — Elite Urban Mobility</p>
 
 <p align="center">
-  <img src="./public/brand/hero.jpg" alt="Ride App Hero" width="800">
+  <img src="https://img.freepik.com/free-vector/taxi-app-concept_23-2148496627.jpg" alt="Ride App Hero" width="800">
 </p>
 
 <p align="center">
